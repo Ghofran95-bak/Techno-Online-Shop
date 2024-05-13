@@ -843,9 +843,23 @@ footer .down .right .photos .logo img {
 }
 
 .sidebar {
+    padding: 17px;
     width: 282px;
     height: 1278px;
     position: fixed;
+    top: 160px;
+    border: 1px solid #EEEEEE;
+}
+
+.content .sidebar .part .up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .border {
